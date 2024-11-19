@@ -36,6 +36,7 @@ export default {
     <div class="card-body">
       <h5 class="card-title">{{post.name}}</h5>
       <h6 class="card-title">{{post.members}}</h6>
+      <h6 class="card-title">{{ post.type.name }}</h6>
       <ul class="list-group list-group-flush">
         <li class="list-group-item" v-for="technologies in post.technologies">{{ technologies.name }}</li>
       </ul>
