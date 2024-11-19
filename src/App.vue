@@ -1,6 +1,6 @@
 <script>
-import AppMain from './components/AppMain.vue';
-
+import { RouterView } from 'vue-router';
+import AppHeader from './components/AppHeader.vue';
 export default {
   data() {
     return {
@@ -9,13 +9,14 @@ export default {
   },
 
   components: {
-    AppMain
+    AppHeader,
   }
 }
 </script>
 
 <template>
-  <AppMain/>
+  <AppHeader />
+  <RouterView />
 </template>
 
 <style lang="scss">
