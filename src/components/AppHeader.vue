@@ -35,8 +35,7 @@ export default {
         list-style-type: none;
         padding: 10px;
         gap: 10px;
-        font-weight: bolder;
-        font-size: larger;
+        font-size: 1.3rem;
     }
     nav {
         min-height: 50px;
